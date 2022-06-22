@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    //Headings
+    <string name="heading_one">Service at your doorstep</string>
+    <string name="heading_two">One point whole solution
+</string>
+    <string name="heading_three">Quick and Efficient
+</string>
+
+    //Description
+    <string name="desc_one">We ensure that all projects are carried out with the utmost professionalism using quality materials and by our own qualified team.</string>
+    <string name="desc_two">We carry out all projects with integrity with our clients. We are one of the most trusted plumbers and gas engineers</string>
+    <string name="desc_three">Our heating and gas engineers commit themselves to all projects, carrying out all work within budget and your deadline</string>
+
+</resources>

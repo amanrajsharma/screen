@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+android:background="@color/black"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/first_line"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:background="@drawable/w"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:id="@+id/Second_line"
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+
+        android:background="#ed7326"
+        android:layout_toRightOf="@+id/first_line"/>
+    <View
+        android:id="@+id/third_line"
+        android:layout_width="20dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/w"
+        android:layout_toRightOf="@+id/Second_line"/>
+    <View
+        android:id="@+id/fourth_line"
+        android:layout_width="20dp"
+        android:layout_height="205dp"
+        android:layout_marginLeft="8dp"
+        android:background="#ed7326"
+        android:layout_toRightOf="@+id/third_line"/>
+    <View
+        android:id="@+id/fifth_line"
+        android:layout_width="20dp"
+        android:layout_height="230dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/d"
+        android:layout_toRightOf="@+id/fourth_line"/>
+    <View
+        android:id="@+id/six_line"
+        android:layout_width="20dp"
+        android:layout_height="110dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/w"
+        android:layout_toRightOf="@+id/fifth_line"/>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ocas"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ocas" />
+
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/brand"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_toRightOf="@+id/textview"
+            android:src="@drawable/brand" />
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="A venture of "
+
+            android:textColor="#fff"
+            android:textSize="24dp" />
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+
+
+</LinearLayout>
